@@ -1,7 +1,8 @@
 from imutils.video import VideoStream
 from imutils.video import FPS
 import imutils
-import cv2,os,urllib.request,pickle
+import cv2,os,urllib.request
+import pickle
 import numpy as np
 from django.conf import settings
 from recognition import extract_embeddings
